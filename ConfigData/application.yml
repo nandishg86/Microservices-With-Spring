@@ -3,7 +3,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8010/eureka/,http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
+      defaultZone: https://eureka-server-01.herokuapp.com/,http://localhost:8010/eureka/,http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
 
 ---
 spring:
